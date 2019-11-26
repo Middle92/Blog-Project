@@ -1,0 +1,36 @@
+.home-plus-page {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  .ant-spin-nested-loading {
+    flex: 1;
+    overflow: hidden;
+    .ant-spin-container {
+      height: 100%;
+    }
+  }
+  .bf-container {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #dddddd;
+    .component-wrapper {
+      float: left;
+    }
+    .bf-content {
+      flex: 1;
+      overflow: auto;
+      h1 {
+        font-size: 2rem;
+      }
+    }
+  }
+  .btns {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    button {
+      margin-right: 10px;
+    }
+  }
+}

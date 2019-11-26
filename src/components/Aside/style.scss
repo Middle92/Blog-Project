@@ -1,0 +1,26 @@
+.Aside {
+  width: 230px;
+  box-sizing: border-box;
+  box-shadow: 1px 0px 5px #ddd;
+  display: inline-block;
+  overflow: auto;
+  position: fixed;
+  top: 60px;
+  bottom: 0%;
+  .aside-list {
+    li {
+      line-height: 40px;
+      box-sizing: border-box;
+      padding: 10px;
+      &:hover {
+        background-color: #eee;
+        cursor: pointer;
+      }
+    }
+  }
+}
+@media screen and (max-width: 980px) {
+  .Aside {
+    display: none;
+  }
+}

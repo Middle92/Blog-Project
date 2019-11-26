@@ -1,0 +1,58 @@
+.home-index-page {
+  height: 100%;
+  overflow: auto;
+  .list {
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid #dddddd;
+    &:hover {
+      background-color: rgba(24, 144, 255, 0.2);
+    }
+    .list_image {
+      width: 120px;
+      height: 120px;
+      margin-right: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid #dddddd;
+      border-radius: 4px;
+      background-color: #fff;
+      img {
+        max-width: 100%;
+        max-height: 100%;
+      }
+    }
+    .list_detail {
+      flex: 1;
+      overflow: hidden;
+      .list_detail_div {
+        display: flex;
+        align-items: center;
+        font-size: 26px;
+        h1 {
+          flex: 1;
+          overflow: hidden;
+          white-space: pre;
+          text-overflow: ellipsis;
+        }
+        .anticon {
+          margin-right: 10px;
+          &.anticon-edit:hover {
+            color: #1890ff
+          }
+          &.anticon-delete:hover {
+            color: #ea424a
+          }
+        }
+      }
+      .list_subtitle {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+      }
+    }
+  }
+}

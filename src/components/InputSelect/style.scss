@@ -1,0 +1,23 @@
+.InputSelect {
+  input + ul {
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    right: 0%;
+    max-height: 100px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    z-index: 999;
+    border-radius: 4px;
+    overflow: auto;
+    li {
+      padding: 0px 10px;
+      line-height: 30px;
+      height: 30px;
+      cursor: pointer;
+      &:hover {
+        background-color: #eeeeee;
+      }
+    }
+  }
+}

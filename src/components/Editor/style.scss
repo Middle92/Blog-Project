@@ -1,0 +1,22 @@
+.Editor {
+  flex: 1;
+  height: 100%;
+  overflow: hidden;
+  .rdw-editor-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    .rdw-editor-toolbar {
+      margin: 0%;
+    }
+    .rdw-editor-main {
+      border: 1px solid #ddd;
+      border-top: none;
+      flex: 1;
+      padding: 5px;
+      .public-DraftStyleDefault-ltr {
+        margin: 0%;
+      }
+    }
+  }
+}
