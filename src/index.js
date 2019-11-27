@@ -10,6 +10,7 @@ import { BrowserRouter as Router } from "react-router-dom"
 // antd
 import 'antd/dist/antd.css'
 
+console.log(1)
 const Main = () => (
   <Provider store={store}>
     <Router>
