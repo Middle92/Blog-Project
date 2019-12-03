@@ -1,7 +1,7 @@
 import axios from "axios"
 import Qs from "qs"
 
-const baseUrl = window.baseUrl = process.env.NODE_ENV === "development" && "http://localhost:3001"
+const baseUrl = window.baseUrl = process.env.NODE_ENV === "development" ? "http://localhost:3001" : "http://47.52.137.175:3001"
 
 const http = (options) => {
   let config = Object.assign({
